@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #DBE2ef; /* blue-600 */
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #3f72af;
+  height: 650px;
+  padding-top: 28px;
+  margin-top: 20px;
+  border-radius: 0px 0px 10px 10px ;
+}
+.welcome {
+  text-align: center;
+  color: #f9f7f7;
+  font-size: 15px;
+}
+
+.subtitle {
+  text-align: center;
+  padding: 12px;
+  color: #f9f7f7;
+}
+
+.form-box {
+  background-color: #f9f7f7;
+  width: 420px;
+  height: 500px;
+  padding: 16px;
+  margin-top: 48px;
+  border-radius: 30px;
+}
+.form-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 40px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  margin-top: 15px;
+}
+.input-group .icon {
+  width: 36px;
+  margin-right: 8px;
+}
+.pipe{
+    width: 5px;
+    height: 30px;
+    background-color: #3f72af;
+}
+.input-group input {
+  width: 60%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.options {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 40px;
+}
+.options a {
+  color: #3f72af;
+  text-decoration: none;
+}
+.login-btn{
+    background-color: #3f72af;
+    border-radius: 10px;
+    border: #f9f7f7;
+    width: 100px;
+    display: grid;
+    justify-self: center;
+    margin-top: 40px;
+    color: #f9f7f7;
+}
+.access{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.access img{
+    width: 50px;
+}
